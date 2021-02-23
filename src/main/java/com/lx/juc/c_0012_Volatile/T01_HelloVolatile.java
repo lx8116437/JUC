@@ -1,4 +1,4 @@
-package com.lx.juc.c_0012_volatile;
+package com.lx.juc.c_0012_Volatile;
 
 import java.util.concurrent.TimeUnit;
 
