@@ -6,6 +6,16 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * 线程池的7个参数
+ * coreSize 核心线程数
+ * maximumPoolSize 最大线程数
+ * keepAliceTime 线程最大空闲等待时间
+ * TimeUnit 等待时间单位
+ * workQueue 任务队列
+ * threadFactory 线程工厂
+ * handler 拒绝策略
+ */
 public class T05_00_HelloThreadPool {
     static class Task implements Runnable {
         private int i;
